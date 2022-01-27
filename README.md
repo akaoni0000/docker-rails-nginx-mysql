@@ -35,4 +35,7 @@ default: &default<br>
 コンテナを起動<br>
 `docker-compose up -d`
 
-  
+## データベースエラーがでたら
+コンテナに入って
+`rails db:create`
+`rails db:migrate`
